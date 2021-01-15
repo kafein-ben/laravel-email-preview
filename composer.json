@@ -1,0 +1,38 @@
+{
+    "name": "kafeinstudio/laravel-email-preview",
+    "description": "Email preview for Laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kafein Studio",
+            "email": "support@kafein-studio.fr",
+            "homepage": "https://www.kafein-studio.fr"
+        }
+    ],
+    "homepage": "https://www.kafein-studio.fr",
+    "keywords": [
+        "Laravel",
+        "kafeinstudio",
+        "email-preview"
+    ],
+    "require": {
+        "themsaid/laravel-mail-preview": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "KafeinStudio\\EmailPreview\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KafeinStudio\\EmailPreview\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KafeinStudio\\EmailPreview\\EmailPreviewServiceProvider"
+            ]
+        }
+    }
+}
