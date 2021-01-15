@@ -16,7 +16,7 @@
         "email-preview"
     ],
     "require": {
-        "themsaid/laravel-mail-preview": "^2.1"
+        "themsaid/laravel-mail-preview": "^4.0"
     },
     "autoload": {
         "psr-4": {
